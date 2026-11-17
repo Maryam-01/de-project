@@ -1,6 +1,21 @@
 # de-final-project
 The intention is to create a data platform that extracts data from an operational database (and potentially other sources), archives it in a data lake, and makes it available in a remodelled OLAP data warehouse.
 
+**Key features include:**
+
+- Built Python-based ingestion and transformation processes
+- Used AWS services including **S3, Lambda, Step Functions, CloudWatch, and SNS**
+- Stored raw and processed data in **Parquet format**
+- Designed a PostgreSQL data warehouse using a **star-schema model**
+- Managed cloud infrastructure with **Terraform**
+- Added automated testing using **pytest**
+- Implemented monitoring and alerting for pipeline failures
+
+**What I learned:**
+
+This project strengthened my understanding of cloud-native data engineering, including orchestration, infrastructure-as-code, data modelling, automated testing, and production-style monitoring.
+
+
 ---
 
 ## Project structure
